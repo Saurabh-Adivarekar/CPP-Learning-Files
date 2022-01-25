@@ -1,3 +1,60 @@
+	#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+   int t;
+   cin>>t;
+   cout<<endl;
+   while(t--){
+   int a,fact=1;
+    cin>>a;
+    if(a < 100){
+    while(a != 0){
+        fact = fact * a;
+        a--;
+    }
+    cout<<fact<<endl;
+   }}
+}
+
+
+
+// #include<bits/stdc++.h>
+
+// using namespace std;
+
+
+// int main(){
+
+//    int a,c,ck=0,n,i,cc,dd,rem=0,rev=0,j=1;
+//    cin>>n;
+//    for(i=0; i<n; i++){
+//     cin>>a;
+//     while(a!=0){
+//         rem = a%10;
+//         rev = rev*10 + rem;
+//         a/=10;
+//     }
+//     cout<<rev<<endl;
+//     rev=0;
+//    }
+// }
+
+
+	
+	// int t;
+	// cin>>t;
+	// while(t--){
+	// 	int a,digit=0,sum=0;
+	// 	cin>>a;
+	// 	while(a>0){
+	// 		digit = a%10;
+	// 		sum = sum + digit;
+	// 		a = a / 10;
+	// 	}
+	// 	cout<<sum<<endl;
+	// }
 
 
 	// int b=6;
