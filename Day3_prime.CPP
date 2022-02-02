@@ -18,4 +18,7 @@ int main(){
 
  			}
  	}
+	
+// 	use of continue statement is that continue just skip only  ongoing iteration and just to next iteration 
+// 	use of break statement is that break statement stop the execution of whole for loop and jump to the next line of the code
 }
